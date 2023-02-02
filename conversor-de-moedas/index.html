@@ -67,9 +67,12 @@ img {
 
 
   <script>
+      var valorEmDolar = 30;
+      var cotacaoDoDOlar = 5.05;
 
-
-
+      var valorEmReal = valorEmDolar * cotacaoDoDOlar;
+      valorEmReal = valorEmReal.toFixed(2);
+      alert("R$" + valorEmReal);
   </script>
 </body>
 </html>
